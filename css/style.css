@@ -262,7 +262,8 @@ footer {
 
   .years {
     justify-content: space-around;
-    padding-top: 10rem; }
+    padding-top: 10rem;
+    align-items: flex-start; }
 
   .objects .object-1__wrapper {
     position: relative;
@@ -321,6 +322,11 @@ footer {
       margin-top: -8rem;
       z-index: 10;
       transform: skew(-20deg); } }
+@media screen and (max-width: 1200px) {
+  .years {
+    justify-content: space-around; }
+    .years .year__box {
+      margin: 1rem; } }
 @media screen and (max-width: 750px) {
   header {
     height: 10rem;

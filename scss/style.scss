@@ -378,6 +378,8 @@ footer {
     }
 }  
 
+// Media queries
+
 @media screen and(max-width: 1200px) {
   
    header {
@@ -405,6 +407,7 @@ footer {
    .years {
        justify-content: space-around;
        padding-top: 10rem;
+       align-items: flex-start;
    }
 
    .objects {
@@ -497,6 +500,18 @@ footer {
         }
     }
 }
+
+}
+
+@media screen and(max-width: 1200px) {
+
+    .years {
+        justify-content: space-around;
+
+        .year__box {
+            margin: 1rem;
+        }
+    }
 
 }
 
